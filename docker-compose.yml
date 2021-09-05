@@ -14,7 +14,7 @@ services:
     
     grafana:
         image: grafana/grafana:latest
-	container_name: grafana
+        container_name: grafana
         environment:
             GF_INSTALL_PLUGINS: "grafana-clock-panel,grafana-simple-json-datasource"
         restart: unless-stopped
